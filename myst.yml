@@ -18,7 +18,17 @@ export:
 site:
   template: book-theme
   options:
+<<<<<<< HEAD
     launch_buttons:
       colab: "https://colab.research.google.com"
       binder: "https://mybinder.org"
       code_repo: "https://github.com/dangelh-un/recurso-aprendizaje"
+=======
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
+    launch_buttons:
+        notebook_interaction: "https://colab.research.google.com"
+        colab_url: "https://colab.research.google.com"
+  structure:
+    - file: intro_python
+>>>>>>> 38cede1112d1214db0737f24a6d538e08305fd5d
