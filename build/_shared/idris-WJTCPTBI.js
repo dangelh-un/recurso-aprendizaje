@@ -1,0 +1,1 @@
+import{a}from"/recurso-aprendizaje//build/_shared/chunk-P6Y67FO7.js";import"/recurso-aprendizaje//build/_shared/chunk-X4DW3KA4.js";import"/recurso-aprendizaje//build/_shared/chunk-RAQ24GF6.js";export default a();
