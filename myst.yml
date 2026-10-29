@@ -1,0 +1,24 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: e649dcc6-80bf-4c96-9daa-64e1d77359f1
+  title: "Introducción a la programación en Python"
+  # description:
+  # keywords: []
+  authors: "Grupos de Estudio Autónomo"
+  # github:
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+export:
+  - format: pdf
+    output: _build/pdf/book.pdf
+
+site:
+  template: book-theme
+  options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
+    launch_buttons:
+        notebook_interaction: "https://colab.research.google.com"
+        colab_url: "https://colab.research.google.com"
+  structure:
+    - file: intro_python
