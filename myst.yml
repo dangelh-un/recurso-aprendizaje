@@ -1,0 +1,24 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: e649dcc6-80bf-4c96-9daa-64e1d77359f1
+  title: "Introducción a la programación en Python"
+  authors: "Grupos de Estudio Autónomo"
+  readme: "intro.md"
+  github: "https://github.com/dangelh-un/recurso-aprendizaje"
+  
+  # Habilitar los enlaces de lanzamiento oficiales en MyST
+  binder: "https://mybinder.org/v2/gh/dangelh-un/recurso-aprendizaje/main"
+  colab: "https://colab.research.google.com/github/dangelh-un/recurso-aprendizaje/blob/main/"
+
+export:
+  - format: pdf
+    output: _build/pdf/book.pdf
+
+site:
+  template: book-theme
+  options:
+    launch_buttons:
+      colab: "https://colab.research.google.com"
+      binder: "https://mybinder.org"
+      code_repo: "https://github.com/dangelh-un/recurso-aprendizaje"
